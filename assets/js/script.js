@@ -101,7 +101,7 @@ var pastSearch = function(pastSearch){
     citySearchHistory = document.createElement("button");
     citySearchHistory.textContent = pastSearch;
     citySearchHistory.classList = "d-flex w-100 btn-dark border p-2";
-    citySearchHistory.setAttribute("data-city",pastSearch)
+    citySearchHistory.setAttribute("data-city", pastSearch);
     citySearchHistory.setAttribute("type", "submit");
     searchHistoryBtn.prepend(citySearchHistory);
 }
@@ -112,7 +112,7 @@ cityForm.addEventListener('submit', e => {
     //city value
     const city = cityForm.city.value.trim();
     if(city){
-        getCityForecast(city) 
+        getCityForecast(city);
         fiveDayForcast(city);
         cityInput.value = "";
     } else{
