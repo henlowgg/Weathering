@@ -7,7 +7,14 @@ body {background-color: #6E7371;}
     flex:auto
 }
 
-@media screen and (max-width: 770px) {
+.list-group-item{
+    line-height: 1.0;
+    border: none;
+    font-family:serif;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 780px) {
     header,
     main {
       flex-direction: column;
