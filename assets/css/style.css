@@ -1,0 +1,15 @@
+.search-column{
+    background-color: #A1A69C;
+}
+body {background-color: #6E7371;}
+
+.card-body{
+    flex:auto
+}
+
+@media screen and (max-width: 770px) {
+    header,
+    main {
+      flex-direction: column;
+    }
+}
